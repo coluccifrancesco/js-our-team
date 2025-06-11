@@ -83,7 +83,7 @@ function memberDisplayer (member){
           </div>
                         
           <div class="col-8">
-            <div class="card-body">
+            <div class="card-body h-100">
               <h5 class="card-text">${name}</h5>
               <p class="card-text">${role}</p>
               <p class="card-text"><small class="text-body-secondary">${email}</small></p>

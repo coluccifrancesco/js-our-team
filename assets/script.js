@@ -58,13 +58,12 @@ function renderMembers (teamMembers, cardGenerator, ){
   for (let i = 0; i < teamMembers.length; i++) {
     const member = teamMembers[i];
     
-    const memberMarkup = memberDisplayer (member);
+    const memberMarkup = memberDisplayer(member);
     console.log(memberMarkup);
     
     cardEl.insertAdjacentHTML('beforeend', memberMarkup);
   }
 }
-
 
 
 // Dichiaro una funzione per generare la card

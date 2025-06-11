@@ -72,15 +72,17 @@ function memberDisplayer (member){
   console.log(name, role, email, img,);
 
   const memberCard = 
+  // Bonus
+  // Rendere l’esercizio responsive, mandando a capo le card
   `
     <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4">    
       <div class="card mb-4" style="max-width: 540px;">
         <div class="row g-0">
-          <div class="col col-sm-4 col-md-4">
-            <img src=${img} class="img-fluid rounded-start" alt="..."></img>
+          <div class="col-4">
+            <img src=${img} class="img-fluid h-100 rounded-start" alt="..." style ="object-fit: cover"></img>
           </div>
                         
-          <div class="col col-sm-8 col-md-8">
+          <div class="col-8">
             <div class="card-body">
               <h5 class="card-text">${name}</h5>
               <p class="card-text">${role}</p>
@@ -97,8 +99,4 @@ function memberDisplayer (member){
 
 
 
-
-
-// Bonus
-// Rendere l’esercizio responsive, mandando a capo le card
 // Aggiungere un form di agginta membri che permetta di visualizzare il nuovo membro sulla pagina

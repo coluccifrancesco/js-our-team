@@ -44,6 +44,34 @@ const teamMembers = [
 
 
 
+function memberDisplayer (member){
+  const {name, role, email, image} = member;
+  console.log(name, role, email, image,);
+
+  const memberCard = 
+  `
+    <div class="col col-xs-1 col-sm-6 col-md-6 col-lg-4">    
+      <div class="card mb-3" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="${image}" class="img-fluid rounded-start" alt="..."></img>
+          </div>
+                        
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-text">${name}</h5>
+              <p class="card-text">${role}</p>
+              <p class="card-text"><small class="text-body-secondary">${email}</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  `
+
+  return memberCard
+}
+
 
 
 

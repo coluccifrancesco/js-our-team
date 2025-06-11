@@ -41,6 +41,13 @@ const teamMembers = [
 ];
 
 
+
+
+
+
+
+
+
 // Bonus
 // Rendere l’esercizio responsive, mandando a capo le card
 // Aggiungere un form di agginta membri che permetta di visualizzare il nuovo membro sulla pagina
